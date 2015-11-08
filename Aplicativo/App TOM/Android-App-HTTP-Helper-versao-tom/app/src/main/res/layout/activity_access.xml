@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/nome_escolhido"
+        android:id="@+id/nome_escolhido"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/estado"
+        android:id="@+id/estado"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_ON"
+        android:id="@+id/button_ON"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/button_OFF"
+        android:id="@+id/button_OFF"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/nome_escolhido_2"
+        android:id="@+id/nome_escolhido_2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/estado_2"
+        android:id="@+id/estado_2"
+        android:layout_gravity="center"/>
+
+
+    <Switch
+        android:id="@+id/switch_int"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:switchMinWidth="200dp"
+        android:layout_gravity="center" />
+
+    <!--Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/button_back"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom"
+        android:text="@string/back"
+        /-->
+
+    </LinearLayout>
+</ScrollView>

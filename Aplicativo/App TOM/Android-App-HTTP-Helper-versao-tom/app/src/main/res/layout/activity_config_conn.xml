@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:hint="@string/info_conn"
+            android:id="@+id/info_conn" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:hint="@string/ssid"
+            android:id="@+id/ssid" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/eg_ssid" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/senha"
+            android:id="@+id/senha" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/eg_senha" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/gateway"
+            android:id="@+id/gateway" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/eg_gateway"
+            android:id="@+id/eg_gateway" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/mask"
+            android:id="@+id/mask" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/eg_mask"
+            android:id="@+id/eg_mask" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/ip"
+            android:id="@+id/ip" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/eg_ip"
+            android:id="@+id/eg_ip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nome"
+            android:id="@+id/nome" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/eg_nome"
+            android:id="@+id/eg_nome" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_SET"
+            android:id="@+id/button_SET" />
+        <!--Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/back"
+            android:id="@+id/button_back" /-->
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TESTE - TOM 2015</string>
+
+    <string name="help">Clique em "Procurar" e selecione seu dispositivo para configurar.</string>
+    <string name="disp">Dispositivo escolhido:</string>
+    <string name="disp_escolhido"> Selecione um dispositivo</string>
+    <string name="button_find">Procurar</string>
+    <string name="button_connect">Configurar</string>
+    <string name="button_Con">Configurar</string>
+    <string name="button_access">Acessar</string>
+    <string name="info_conn">Insira o SSID (nome) da rede Wifi da sua casa e a senha.
+        Defina o IP, Máscara da rede e o Gateway e escolha um nome para o dispositivo inteligente que você está configurando.</string>
+
+    <string name="ssid">SSID</string>
+    <string name="senha">Senha</string>
+    <string name="gateway">Gateway</string>
+    <string name="eg_gateway">Ex: 192.168.x.x</string>
+    <string name="mask">Máscara da Rede</string>
+    <string name="eg_mask">Ex: 255.255.255.0</string>
+    <string name="ip">IP</string>
+    <string name="eg_ip">Ex: 192.168.x.x</string>
+    <string name="nome">Nome do dispositivo inteligente</string>
+    <string name="eg_nome">Ex: Lâmpada da cozinha</string>
+    <string name="button_SET">Enviar</string>
+
+    <string name="nome_escolhido">Tomada</string>
+    <string name="estado">%s</string>
+    <string name="nome_escolhido_2">Interruptor</string>
+    <string name="estado_2">%s</string>
+    <string name="button_ON">ON</string>
+    <string name="button_OFF">OFF</string>
+    <string name="back">Voltar</string>
+
+    <string name="IP_address">IP Address:</string>
+    <string name="eg_IP_address">e.g. 192.168.0.10</string>
+    <string name="port_number">Port Number:</string>
+    <string name="eg_port_number">eg. 80</string>
+
+    <string name="lista">Para encontrar redes, clique no botão Procurar</string>
+    <string name="title_activity_list_esp">ListESP</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
